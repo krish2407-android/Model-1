@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  
+  <title>Registration Form</title>
+<style>
+    label{
+        
+
+    }
+    h2{
+        font-size: 20px;
+        color:black ;
+    }
+    input{
+        color: aquamarine;
+    }
+</style>
 </head>
 <body>
+
+  <div class="form-box">
+    <h2>Registration Form</h2>
+
     <form>
-        <label>First name:</label><br>
-        <input type="text" placeholder="Enter name">
-        <br><br>
-        <label>Email:</label><br>
-        <input type="email" placeholder="Enter email">
-        <br><br>
-        <button>Register</button>
+      <label>Full Name:</label><br>
+      <input type="text" placeholder="Enter your name" ><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" placeholder="Enter your email" ><br><br>
+
+      <label>Password:</label><br>
+      <input type="password" placeholder="Enter password" ><br><br>
+
+      <label>Gender</label><br>
+      <select>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select><br><br>
+
+     
+      <button type="submit">Submit</button>
     </form>
-    
+  </div>
+
 </body>
 </html>
